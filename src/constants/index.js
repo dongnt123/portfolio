@@ -96,10 +96,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Oracle",
-    icon: oracle,
-  },
-  {
     name: "Next JS",
     icon: nextjs,
   },
