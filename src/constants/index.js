@@ -20,8 +20,8 @@ import {
   megazone,
   flexibble,
   threads,
-  nextjs,
-  oracle
+  snapgram,
+  nextjs
 } from "../assets";
 
 export const navLinks = [
@@ -251,6 +251,28 @@ const projects = [
     source_code_link: "https://github.com/dongnt123/threads",
     demo_link: "https://threads-delta-two.vercel.app/",
   },
+  {
+    name: "Snapgram",
+    description:
+      "Spread out you heart and passion for everyone about everything",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      }
+    ],
+    image: snapgram,
+    source_code_link: "https://https://github.com/dongnt123/snapgram/",
+    demo_link: "https://snapgram-ten-mauve.vercel.app/",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

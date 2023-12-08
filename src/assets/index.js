@@ -28,6 +28,7 @@ import megazone from "./company/megazone.png";
 
 import flexibble from "./flexibble.png";
 import threads from "./threads.png";
+import snapgram from "./snapgram.png";
 
 export {
   logo,
@@ -56,5 +57,6 @@ export {
   gimasys,
   megazone,
   flexibble,
-  threads
+  threads,
+  snapgram
 };
