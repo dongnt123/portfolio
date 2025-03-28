@@ -29,6 +29,8 @@ import megazone from "./company/megazone.png";
 import flexibble from "./flexibble.png";
 import threads from "./threads.png";
 import snapgram from "./snapgram.png";
+import zentry from "./zentry.png";
+import docs from "./docs.png";
 
 export {
   logo,
@@ -58,5 +60,7 @@ export {
   megazone,
   flexibble,
   threads,
-  snapgram
+  snapgram,
+  zentry,
+  docs
 };

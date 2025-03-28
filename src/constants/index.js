@@ -21,6 +21,8 @@ import {
   flexibble,
   threads,
   snapgram,
+  zentry,
+  docs,
   nextjs
 } from "../assets";
 
@@ -199,6 +201,50 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Docs",
+    description:
+      "Collaborate Smarter with Google Docs",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      }
+    ],
+    image: docs,
+    source_code_link: "https://github.com/dongnt123/google-docs/",
+    demo_link: "https://google-docs-ecru.vercel.app/",
+  },
+  {
+    name: "Zentry",
+    description:
+      "Enter the world 3D games you dream about",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      }
+    ],
+    image: zentry,
+    source_code_link: "https://github.com/dongnt123/zentry/",
+    demo_link: "https://zentry-tau.vercel.app/",
+  },
   {
     name: "Flexibble",
     description:
