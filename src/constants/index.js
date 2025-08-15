@@ -23,7 +23,8 @@ import {
   snapgram,
   zentry,
   docs,
-  nextjs
+  nextjs,
+  grapeseed
 } from "../assets";
 
 export const navLinks = [
@@ -117,7 +118,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
+    title: "AI Engineer",
     company_name: "iCOMM Media & Tech, Jsc",
     icon: icomm,
     iconBg: "#383E56",
@@ -157,7 +158,7 @@ const experiences = [
     company_name: "Megazone Digital",
     icon: megazone,
     iconBg: "#E6DEDD",
-    date: "Feb 2022 - Present",
+    date: "Feb 2022 - Apr 2025",
     points: [
       "Developing and maintaining PMK IQOS Ecommerce website.",
       "Project main Front-end Developer.",
@@ -171,6 +172,21 @@ const experiences = [
       "Monitoring and fixing when system run into trouble.",
     ],
   },
+  {
+    title: "Full Stack Developer",
+    company_name: "Grape City",
+    icon: grapeseed,
+    iconBg: "#E6DEDD",
+    date: "Apr 2025 - Present",
+    points: [
+      "Contributed to the development and maintenance of GrapeSEED, an English learning platform designed for children.",
+      "Develop and implementation of new frontend features to enhance user experience and support interactive online learning.",
+      "Re-engineered legacy components and optimized outdated codebases for improved performance, scalability and maintainability.",
+      "Collaborated closely with backend developers and product designers to align feature development with educational goals.",
+      "Worked with modern frontend technologies such as React, Next.js, and Tailwind CSS to build responsive and user-friendly interfaces.",
+      "Participated in continuous integration and deployment (CI/CD) workflows to ensure smooth feature releases and minimize downtime.",
+    ],
+  }
 ];
 
 const testimonials = [

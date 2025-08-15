@@ -25,6 +25,7 @@ import oracle from "./tech/oracle.png";
 import icomm from "./company/icomm.png";
 import gimasys from "./company/gimasys.png";
 import megazone from "./company/megazone.png";
+import grapeseed from "./company/grapeseed.png";
 
 import flexibble from "./flexibble.png";
 import threads from "./threads.png";
@@ -62,5 +63,6 @@ export {
   threads,
   snapgram,
   zentry,
-  docs
+  docs,
+  grapeseed
 };
